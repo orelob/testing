@@ -2,8 +2,8 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Data Driven Testing Suite">
     <test verbose="2" preserve-order="true" name="DataDriveTest 2">
-        <parameter name="studentId" value="123456"/>
-        <parameter name="name" value="Name"/>
+        <parameter name="weight" value="123456"/>
+        <parameter name="name" value="AA"/>
         <classes>
             <class name="demo.DataDriveTestingDemo">
                 <methods>
@@ -14,8 +14,8 @@
     </test>
 
     <test verbose="2" preserve-order="true" name="DataDriveTest 1">
-        <parameter name="studentId" value="123456"/>
-        <parameter name="name" value="Name"/>
+        <parameter name="weight" value="32"/>
+        <parameter name="name" value="B"/>
         <classes>
             <class name="demo.DataDriveTestingDemo">
                 <methods>
