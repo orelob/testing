@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Data Provider Test Suite">
+    <test verbose="2" preserve-order="true" name="Parameters Test 1">
+        <parameter name="weight" value="1"/>
+        <parameter name="name" value="Heo"/>
+        <classes>
+            <class name="demo.DataDriveTestingDemo">
+                <methods>
+                    <include name="testWithParameters"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test verbose="2" preserve-order="true" name="Parameters Test 2">
+        <parameter name="weight" value="1"/>
+        <parameter name="name" value="Cho"/>
+        <classes>
+            <class name="demo.DataDriveTestingDemo">
+                <methods>
+                    <include name="testWithParameters"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test verbose="2" preserve-order="true" name="DataProviderTest">
+        <classes>
+            <class name="demo.DataDriveTestingDemo">
+                <methods>
+                    <include name="testWithData"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>
